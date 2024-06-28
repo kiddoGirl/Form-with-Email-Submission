@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+            <h1>Get in Contact with Parkqwik</h1>
+
+            <input type="hidden" name="access_key" value="85e39f25-8a29-4eba-833f-52179bfbf1c6">
+
+            <input name="name" type="text" id="firstName" placeholder="First Name" required>
+            <input name="last name" type="text" id="lastName" placeholder="Last Name" required>
+            <input name="email" type="email" id="email" placeholder="Email" required>
+            <input name="mobile" type="text" id="mobile" placeholder="Mobile" required>
+            <h4>Type Your Message Here...</h4>
+            <textarea required name="message"></textarea>
+            <input type="submit" value="Send" id="button">
+
+        </form>
+
+    </div>
+
+</body>
+</html>
